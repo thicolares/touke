@@ -184,12 +184,12 @@
 /**
  * A random string used in security hashing methods.
  */
-	Configure::write('Security.salt', 'DYhG93b0qyJfIxfs2guVoUubWwvniR2G0FgaC9mi');
+	Configure::write('Security.salt', 'V4gt1A9oX5Lma5xWn4e35W0WAzmkhKlyz32MN55r');
 
 /**
  * A random numeric string (digits only) used to encrypt/decrypt strings.
  */
-	Configure::write('Security.cipherSeed', '76859309657453542496749683645');
+	Configure::write('Security.cipherSeed', '6944615950740876283469890425056231244315');
 
 /**
  * Apply timestamps with the last modified time to static assets (js, css, images).
@@ -330,3 +330,10 @@ Cache::config('_cake_model_', array(
 	'serialize' => ($engine === 'File'),
 	'duration' => $duration
 ));
+
+/**
+ * System Variables
+ *
+ * @author Thiago Colares
+ */
+Configure::write('ProjectName', 'To Uke');

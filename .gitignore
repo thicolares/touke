@@ -18,3 +18,4 @@
 #ignore thumbnails created by windows ;)
 Thumbs.db
 /app/Config/database.php
+/app/Config/email.php

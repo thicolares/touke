@@ -1,0 +1,748 @@
+2011-12-23 18:12:30 Error: [MissingControllerException] Controller class 1.4.0Controller could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-23 18:12:30 Error: [MissingControllerException] Controller class ImagesController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 11:02:47 Error: [MissingControllerException] Controller class TranslatorController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 11:03:23 Error: [MissingControllerException] Controller class TranslatorsController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 11:03:59 Error: [PrivateActionException] Private Action TranslatorsController::parser() is not directly accessible.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#2 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-24 11:05:02 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 11:06:01 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 16:53:34 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 16:53:45 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 16:54:06 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 16:58:40 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:01:08 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:01:30 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:02:46 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:03:04 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:03:11 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:05:40 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:35:37 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:35:39 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:35:40 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:36:07 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:36:09 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:36:10 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:36:14 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:36:17 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:36:17 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:36:25 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:36:26 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:36:27 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:36:33 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:37:20 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:37:21 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:37:21 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:37:25 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:38:57 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:38:59 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:38:59 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:39:13 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:39:15 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:39:16 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:40:04 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:40:28 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:41:05 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:41:59 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:45:14 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:46:41 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:46:43 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:47:02 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:47:04 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:47:05 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:49:04 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:49:07 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:49:07 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:49:13 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:49:31 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:49:34 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:49:34 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:49:42 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:49:46 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:49:46 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:50:09 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:50:17 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:50:19 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:52:19 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:52:21 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:52:34 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:53:31 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:53:54 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:53:56 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:53:56 Error: [MissingControllerException] Controller class AjaxController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 17:54:03 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:54:22 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:54:31 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:55:21 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:57:14 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:57:42 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 17:57:49 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 18:01:08 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 18:01:45 Error: [MissingViewException] View file "/applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp" is missing.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(363): View->_getViewFileName(NULL)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#4 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2011-12-24 18:08:12 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock' (61)" is missing, or could not be created.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3214): ConnectionManager::getDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1023): Model->setDataSource('default')
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3238): Model->setSource('translators')
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#6 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#8 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#11 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#16 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#17 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#18 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2011-12-24 18:09:39 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock' (61)" is missing, or could not be created.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3240): ConnectionManager::getDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#9 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#16 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2011-12-24 18:10:23 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock' (61)" is missing, or could not be created.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3240): ConnectionManager::getDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#9 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#16 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2011-12-24 18:10:27 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock' (61)" is missing, or could not be created.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3240): ConnectionManager::getDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#9 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#16 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2011-12-24 18:18:59 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock' (61)" is missing, or could not be created.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3240): ConnectionManager::getDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#9 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#16 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2011-12-24 18:19:20 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock' (61)" is missing, or could not be created.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3240): ConnectionManager::getDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#9 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#16 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#17 {main}
+2011-12-24 18:20:40 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock' (61)" is missing, or could not be created.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3214): ConnectionManager::getDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1023): Model->setDataSource('default')
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3238): Model->setSource('translators')
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#6 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#8 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#11 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#16 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#17 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#18 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2011-12-24 18:20:59 Error: [MissingDatasourceConfigException] The datasource configuration "default" was not found in database.php
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(91): ConnectionManager::_getConnectionObject('default')
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3214): ConnectionManager::getDataSource('default')
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1023): Model->setDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3238): Model->setSource('translators')
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#6 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#7 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#10 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#16 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#17 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#18 {main}
+2011-12-24 18:21:35 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/Applications/XAMPP/xamppfiles/var/mysql/mysql.sock' (61)" is missing, or could not be created.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Datasource/DboSource.php(244): Mysql->connect()
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/ConnectionManager.php(98): DboSource->__construct(Array)
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3214): ConnectionManager::getDataSource('default')
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1023): Model->setDataSource('default')
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(3238): Model->setSource('translators')
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Model/Model.php(1206): Model->getDataSource()
+#6 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(198): Model->schema()
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/Helper/FormHelper.php(450): FormHelper->_introspectModel('Translator', 'fields')
+#8 /applications/xampp/xamppfiles/htdocs/touke/app/View/Elements/default/topbar.ctp(19): FormHelper->create('Translator', Array)
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#11 /applications/xampp/xamppfiles/htdocs/touke/app/View/Layouts/default.ctp(42): View->element('default/topbar')
+#12 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#13 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(414): View->_render('/applications/x...')
+#14 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(376): View->renderLayout('<pre>[Intro:] <...', 'default')
+#15 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#16 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#17 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#18 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#19 {main}
+2011-12-24 18:22:44 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:23:22 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:23:48 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:24:02 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:24:24 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:24:39 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:25:31 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:31:15 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:32:01 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:32:58 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:33:05 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:34:08 Error: [MissingHelperException] Helper class LayoutHelper could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Layout', Array)
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#3 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#5 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2011-12-24 18:50:50 Error: [MissingControllerException] Controller class TController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:06:22 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:06:56 Error: [MissingActionException] Action TranslatorsController::t() could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#2 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-24 19:09:27 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:09:42 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:09:43 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:09:45 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:09:57 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:10:01 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:10:04 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 19:10:34 Error: [MissingControllerException] Controller class TranslationController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

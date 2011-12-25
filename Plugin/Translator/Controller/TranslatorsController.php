@@ -18,6 +18,10 @@ class TranslatorsController extends TranslatorAppController {
 	
 	public $uses = null;
 	
+    public $helpers = array(
+		'Chord.Chord'
+	);
+	
 	var $regExpTitle 			= '/\<h1 id\=[\"]ai_musica[\"].*?\>(.*?)\<\/h1\>/s';
 	var $regExpArtist 			= '/\<h2 id\=[\"]ai_artista[\"].*?\>(.*?)\<\/h2\>/s';
 	var $regExpArtistRmLink 	= '/\<a.*?\>(.*?)\<\/a\>/s';

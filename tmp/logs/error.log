@@ -746,3 +746,161 @@
 2011-12-24 19:10:34 Error: [MissingControllerException] Controller class TranslationController could not be found.
 #0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2011-12-24 19:46:52 Error: [MissingPluginException] Plugin Chord could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Core/App.php(332): CakePlugin::path('Chord')
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Core/App.php(217): App::pluginPath('Chord')
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Core/App.php(510): App::path('View/Helper', 'Chord')
+#3 [internal function]: App::load('ChordHelper')
+#4 [internal function]: spl_autoload_call('ChordHelper')
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/HelperCollection.php(75): class_exists('ChordHelper')
+#6 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(577): HelperCollection->load('Chord.Chord', Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(359): View->loadHelpers()
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#11 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2011-12-24 21:48:14 Error: [MissingActionException] Action ChordsController::setChordsResources() could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ChordsController), Object(CakeRequest), Object(CakeResponse))
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Core/Object.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Chord/View/Elements/chord/song_chords.ctp(2): Object->requestAction('/chord/chords/s...')
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp(7): View->element('chord/song_chor...', Array, Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(365): View->_render('/applications/x...')
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#12 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-12-24 21:48:21 Error: [MissingActionException] Action ChordsController::setChordsResources() could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ChordsController), Object(CakeRequest), Object(CakeResponse))
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Core/Object.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Chord/View/Elements/chord/song_chords.ctp(2): Object->requestAction('/chord/chords/s...')
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp(7): View->element('chord/song_chor...', Array, Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(365): View->_render('/applications/x...')
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#12 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-12-24 21:48:23 Error: [MissingActionException] Action ChordsController::setChordsResources() could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ChordsController), Object(CakeRequest), Object(CakeResponse))
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Core/Object.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Chord/View/Elements/chord/song_chords.ctp(2): Object->requestAction('/chord/chords/s...')
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp(7): View->element('chord/song_chor...', Array, Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(365): View->_render('/applications/x...')
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#12 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-12-24 21:49:01 Error: [MissingActionException] Action ChordsController::setChordsResources() could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(ChordsController), Object(CakeRequest), Object(CakeResponse))
+#2 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Core/Object.php(102): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse), Array)
+#3 /applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Chord/View/Elements/chord/song_chords.ctp(2): Object->requestAction('/chord/chords/s...')
+#4 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#5 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(320): View->_render('/applications/x...', Array)
+#6 /applications/xampp/xamppfiles/htdocs/touke/app/Plugin/Translator/View/Translators/parser.ctp(7): View->element('chord/song_chor...', Array, Array)
+#7 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(598): include('/applications/x...')
+#8 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/View/View.php(365): View->_render('/applications/x...')
+#9 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Controller/Controller.php(900): View->render(NULL, NULL)
+#10 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(114): Controller->render()
+#11 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(TranslatorsController), Object(CakeRequest), Object(CakeResponse))
+#12 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2011-12-24 23:54:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:54 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-24 23:54:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

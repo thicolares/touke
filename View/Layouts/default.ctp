@@ -41,7 +41,7 @@
 
 		<?php echo $this->element("default/topbar"); ?>
 	
-		<div class="content">
+		<div class="container-fluid">
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $content_for_layout; ?>

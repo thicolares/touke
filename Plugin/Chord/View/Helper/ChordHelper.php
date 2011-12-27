@@ -61,6 +61,8 @@ class ChordHelper extends AppHelper {
 	    
 	    $html = "";
        	$javascript = "$(document).ready(function() {";
+		$chordLi =  "";
+
        	$slideId = 0;
    		foreach($this->songChords as $chord){
    				
@@ -110,8 +112,8 @@ class ChordHelper extends AppHelper {
    		
        		// get chord box html
 			$tmp[] = $finalChord;	
-       		print $this->_htmlChordBox($finalChord, $variations, $slideId, $chordRootNote, $chordFormula, $bassNote);
-       		//$javascript .= $this->_jsChordBox($slideId);		
+       		$chordLi .= '<li>' . $this->_htmlChordBox($finalChord, $variations, $slideId, $chordRootNote, $chordFormula, $bassNote) . '</li>';
+       		$javascript .= $this->_jsChordBox($slideId);		
        		$slideId ++;
    		
    		
@@ -122,8 +124,8 @@ class ChordHelper extends AppHelper {
        		//$html .= "<span class=\"chord\" style=\"background-image:url('".$chord_image_filename."');\">".$chordRootNote.$chordFormula."</span>";		
    	
        	}
-   	debug($tmp);
-debug($this->missingChords);
+		//debug($tmp);
+		//debug($this->missingChords);
    		
        		/*
    		
@@ -135,9 +137,18 @@ debug($this->missingChords);
        			//$html .= "<a class='missing'  href='make_chord.php?missing_chord_name=".urlencode($chord)."'>Suggest the chord <br><strong>".$chord."</strong></a>";		
        			$html .= "<span class='missing'  href='make_chord.php?missing_chord_name=".urlencode($chord)."'>Ops! Dunno the <strong>".$chord."</strong>. I'm working on it.</strong></span>";		
        		}*/
+
+			
+			?>
+				<ul class="chord-grid">
+					<?php print $chordLi; ?>
+				</ul>
+			<?php
    	
        	$javascript .= "});";
        	$arr_res["javascript"] = $javascript;
+// print $javascript;
+		print $this->Html->scriptBlock($javascript);
        	$arr_res["html"] = $html;
    
        	return $arr_res;
@@ -214,22 +225,22 @@ debug($this->missingChords);
 		$html = '';
 		for($v = 1; $v <= $variations; $v++){		
 			$html .= "			
-			<div class=\"chord_diagram\" style=\"background: #cbe4b9 \">
+			<div class=\"chord-diagram\" >
 
-				<div class=\"chord_name\">" . $chordRootNote . $chordFormula . $bassNote . "</div>
+				<div class=\"chord-name\">" . $chordRootNote . $chordFormula . $bassNote . "</div>
 				" . $this->Html->image(
-				        $this->webroot . "img/chords/" . rawurlencode($chordImageFilenamePre) . $v . '.gif',
+				        $this->webroot . "chord/img/chords/" . rawurlencode($chordImageFilenamePre) . $v . '.gif',
 				        array('alt' => $chordRootNote . $chordFormula . $bassNote)
 				) . "
 				<div class=\"chord_box_controler\">
-					<a class=\"chord_box_prev chord_box_controler_buttom prev" . $slideId . "\"></a>
-					<a class=\"chord_box_next chord_box_controler_buttom next" . $slideId . "\"></a>
+					<a class=\"chord_box_prev chord_box_controler_buttom prev" . $slideId . "\">prev</a>
+					<a class=\"chord_box_next chord_box_controler_buttom next" . $slideId . "\">next</a>
 				</div>
 
 			</div>";
 		}
 		
-		return "<div class=\"chord_box\">" . 
+		return "<div class=\"chord-box\">" . 
     	"<div class=\"slideshow slideshow" . $slideId . "\">" . 
 		$html . "</div></div>";	
 	}
@@ -263,6 +274,18 @@ debug($this->missingChords);
 		$html . "</div></div>";
 	}
 	
+	/**
+    * Return part of javascript refered to one chord to make part of the slide of chords
+    */
+    private function _jsChordBox($slideId){
+    	return "
+    		$('.slideshow".$slideId."').cycle({ 
+    			prev:   '.prev".$slideId."', 
+    			next:   '.next".$slideId."', 
+    			speed:  200,
+    			timeout: 0
+    		});";
+    }
 	
 	
 	

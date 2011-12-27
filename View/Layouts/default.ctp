@@ -22,6 +22,8 @@
 			echo $this->Html->css('bootstrap.min');
 			echo $this->Html->css('default');
 
+			echo $this->Html->script('jquery');
+
 			echo $scripts_for_layout;
 		?>
 		

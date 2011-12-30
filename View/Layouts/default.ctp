@@ -2,6 +2,7 @@
 <html lang="pt-br">
 	<head>
 	    <meta charset="utf-8">
+
 	    <meta name="description" content="">
 	    <meta name="author" content="">
 		<?php //echo $this->Html->charset(); ?>
@@ -40,7 +41,6 @@
 	</head>
 
 	<body>
-
 		<?php echo $this->element("default/topbar"); ?>
 	
 		<div class="container-fluid">

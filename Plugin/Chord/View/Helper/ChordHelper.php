@@ -102,10 +102,8 @@ class ChordHelper extends AppHelper {
        		// number of variations
 			if(isset($this->allChords[$finalChord])){
 				$variations = $this->allChords[$finalChord]; 
-				
-				
-				
 			} else {
+				$variations = 0;
 				$this->missingChords[] = $finalChord; 
 			}
        		
@@ -220,7 +218,13 @@ class ChordHelper extends AppHelper {
 
 	public function chordBoxN($finalChord, $variations, $slideId, $chordRootNote, $chordFormula, $bassNote){
 
-		$chordImageFilenamePre = urlencode($finalChord)."~";
+			// 		        $finalChord = preg_replace(array('/\#/'), array('___'), base64_encode($finalChord));
+			// $finalChord = base64_decode(preg_replace(array('/___/'), array('#'), $finalChord));
+
+
+$chordImageFilenamePre = ($finalChord)."~";
+//		$chordImageFilenamePre = urlencode($finalChord)."~";
+		// $chordImageFilenamePre = (htmlentities($finalChord))."~";
 		
 		$html = '';
 		for($v = 1; $v <= $variations; $v++){		
@@ -229,12 +233,12 @@ class ChordHelper extends AppHelper {
 
 				<div class=\"chord-name\">" . $chordRootNote . $chordFormula . $bassNote . "</div>
 				" . $this->Html->image(
-				        $this->webroot . "chord/img/chords/" . rawurlencode($chordImageFilenamePre) . $v . '.gif',
+				        $this->webroot . "chord/img/chords/" . $chordImageFilenamePre . $v . '.gif',
 				        array('alt' => $chordRootNote . $chordFormula . $bassNote)
 				) . "
-				<div class=\"chord_box_controler\">
-					<a class=\"chord_box_prev chord_box_controler_buttom prev" . $slideId . "\">prev</a>
-					<a class=\"chord_box_next chord_box_controler_buttom next" . $slideId . "\">next</a>
+				<div class=\"chord-box-controler\">
+					<a class=\"chord-box-prev chord-box-controler-buttom prev" . $slideId . "\"></a>
+					<a class=\"chord-box-next chord-box-controler-buttom next" . $slideId . "\"></a>
 				</div>
 
 			</div>";
@@ -250,26 +254,30 @@ class ChordHelper extends AppHelper {
 		$chordImageFilenamePre = urlencode($finalChord)."~";
 		
 		$html = "			
-		<div class=\"chord_diagram\" style=\"background: #cbe4b9 \">
-			<div class=\"chord_name\">" . $chordRootNote . $chordFormula . $bassNote . "</div>
+		<div class=\"chord-diagram\">
+			<div class=\"chord-name\">" . $chordRootNote . $chordFormula . $bassNote . "</div>
 			" . $this->Html->image(
 			        $this->webroot . "img/chords/" . rawurlencode($chordImageFilenamePre) . '1.gif',
 			        array('alt' => $chordRootNote . $chordFormula . $bassNote)
 			) . "					
 		</div>";
 		
-		return "<div class=\"chord_box\">" . 
+		return "<div class=\"chord-box\">" . 
     	"<div class=\"slideshow slideshow" . $slideId . "\">" . 
 		$html . "</div></div>";
 	}
 
 	public function chordBox0($finalChord, $slideId, $chordRootNote, $chordFormula, $bassNote){
-		$html = "
-			<div class=\"chord_diagram\"> 
-				<div class=\"chord_name\">" . $chordRootNote . $chordFormula . $bassNote . "</div>							
-			</div>";
+		$html = "			
+		<div class=\"chord-diagram chord-donkey\">
+			<div class=\"chord-name\">" . $chordRootNote . $chordFormula . $bassNote . "</div>
+			" . '<a class="donkey" rel="popover" data-content="' . 
+			__('I don\'t know the %s chord or its notation. I wrote it down in my notes to study later.', $chordRootNote . $chordFormula . $bassNote)
+			. '" data-original-title="' . __('Wow! What chord is this?') . '"></a>'. "					
+		</div>";
+
 			
-		return "<div class=\"chord_box\">" . 
+		return "<div class=\"chord-box\">" . 
     	"<div class=\"slideshow slideshow" . $slideId . "\">" . 
 		$html . "</div></div>";
 	}
@@ -283,8 +291,22 @@ class ChordHelper extends AppHelper {
     			prev:   '.prev".$slideId."', 
     			next:   '.next".$slideId."', 
     			speed:  200,
+				fx: 'fadeZoom',
     			timeout: 0
     		});";
+					// 	    	return "
+					// 	    		$('.slideshow".$slideId."').cycle({ 
+					// 	    			prev:   '.prev".$slideId."', 
+					// 	    			speed:  200,
+					// fx: 'scrollRight',
+					// 	    			timeout: 0
+					// 	    		});
+					// 	    		$('.slideshow".$slideId."').cycle({ 
+					// 	    			next:   '.next".$slideId."', 
+					// 	    			speed:  200,
+					// fx: 'scrollLeft',
+					// 	    			timeout: 0
+					// 	    		});";
     }
 	
 	

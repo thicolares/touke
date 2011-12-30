@@ -1,3 +1,36 @@
+a.donkey{
+    background:url('/chord/img/donkey.jpg') #fff center ;
+    margin:0px auto;
+    margin-left:9px;
+    margin-top:4px;
+    display:block;
+    width:40px;
+    height:60px;
+    border:1px white solid;
+    -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.095);
+    -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.095);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.095);
+}
+
+.chord-box-controler{
+	width:61px;
+	height:22px;	
+	display:block;
+	position:relative;
+	margin-top: -18px;	
+}
+.chord-box-controler-buttom{
+	height:22px;
+	width:30px;
+	display:block;
+	cursor:pointer;
+}
+
+a.chord-box-prev{background:url("/chord/img/prev.gif") no-repeat 0px -37px; float:left; }
+a.chord-box-prev:hover{background:url("/chord/img/prev.gif") no-repeat 0px 0px;}
+
+a.chord-box-next{background:url("/chord/img/next.gif") no-repeat 15px -37px;float:right;}
+a.chord-box-next:hover{background:url("/chord/img/next.gif") no-repeat 15px 0px;}
 
 /**/
 .chord-grid{margin-left:-20px;margin-bottom:0;zoom:1;}
@@ -6,7 +39,8 @@
 .chord-grid:after{clear:both;}
 .chord-grid li{display:inline;}
 .chord-grid li div.chord-box {
-width:60px; height: 100px; display:block;
+    width:60px; height: 100px; display:block;
+
 
 background-image: linear-gradient(bottom, rgb(188,217,139) 0%, rgb(164,195,112) 100%);
 background-image: -o-linear-gradient(bottom, rgb(188,217,139) 0%, rgb(164,195,112) 100%);
@@ -21,7 +55,6 @@ background-image: -webkit-gradient(
 	color-stop(0, rgb(188,217,139)),
 	color-stop(1, rgb(164,195,112))
 );
-
     
   float: left;
 /*  padding: 4px;*/
@@ -37,3 +70,12 @@ background-image: -webkit-gradient(
 /*.media-grid a img {
   display: block;
 }*/
+
+.chord-name{
+   text-align:center;
+   color: #395111;
+   font-weight:bold;
+   font-size:90%;
+   text-shadow: 0px 2px 3px #aaa;
+   padding-top:5px;
+}

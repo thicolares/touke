@@ -62,9 +62,11 @@ class TranslatorsController extends TranslatorAppController {
 			curl_setopt($ch, CURLOPT_URL, $this->songURL);
 			curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 2);
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+			curl_setopt($ch, CURLOPT_HEADER, 0);
+			curl_setopt($ch, CURLOPT_ENCODING, 'UTF-8');
 			
 			// grab URL and pass it to the browser
-			$this->songHTML = curl_exec($ch);
+			$this->songHTML = utf8_encode(curl_exec($ch));
 
 			// close cURL resource, and free up system resources
 			curl_close($ch);

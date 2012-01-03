@@ -89,6 +89,11 @@ class ChordHelper extends AppHelper {
    		
        		// Slash (/) becomes underline (_)
        		$translatedChordFormula = str_replace("/", "_", $chordFormula);
+       		// $translatedChordFormula = str_replace("#", "_srp_", $chordFormula);
+       		// $translatedChordFormula = str_replace("(", "_opr_", $chordFormula);
+       		// $translatedChordFormula = str_replace(")", "_cpr_", $chordFormula);
+       		// $translatedChordFormula = str_replace("-", "_mns_", $chordFormula);
+       		// $translatedChordFormula = str_replace("+", "_pls_", $chordFormula);
        		$translatedBassNote = str_replace("/", "_", $bassNote);
        		// translating to a known notation
        		$translatedChordFormula = strtr($translatedChordFormula, $this->notations);		
@@ -110,6 +115,7 @@ class ChordHelper extends AppHelper {
    		
        		// get chord box html
 			$tmp[] = $finalChord;	
+
        		$chordLi .= '<li>' . $this->_htmlChordBox($finalChord, $variations, $slideId, $chordRootNote, $chordFormula, $bassNote) . '</li>';
        		$javascript .= $this->_jsChordBox($slideId);		
        		$slideId ++;

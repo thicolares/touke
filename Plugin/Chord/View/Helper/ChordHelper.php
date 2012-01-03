@@ -257,7 +257,7 @@ $chordImageFilenamePre = ($finalChord)."~";
 		<div class=\"chord-diagram\">
 			<div class=\"chord-name\">" . $chordRootNote . $chordFormula . $bassNote . "</div>
 			" . $this->Html->image(
-			        $this->webroot . "img/chords/" . rawurlencode($chordImageFilenamePre) . '1.gif',
+			        $this->webroot . "chord/img/chords/" . ($chordImageFilenamePre) . '1.gif',
 			        array('alt' => $chordRootNote . $chordFormula . $bassNote)
 			) . "					
 		</div>";

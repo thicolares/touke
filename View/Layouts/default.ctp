@@ -41,6 +41,15 @@
 	</head>
 
 	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
+		
 		<?php echo $this->element("default/topbar"); ?>
 	
 		<div class="container-fluid">
@@ -50,13 +59,33 @@
 		</div>
 
         <footer>
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
-          <p>&copy; Company 2011</p>
+			<div class="row clearfix">
+				<div class="span5">
+					&nbsp;
+				</div>
+
+				<div class="span3">
+					
+					<?php 
+						echo $this->Html->link(
+							$this->Html->image('http://cloud.ohloh.net/attachments/3178/cake2000_med.png', array('border' => '0')),
+							'http://www.ohloh.net/p/cakephp',
+							array('target' => '_blank', 'escape' => false)
+						);
+					?>
+					<?php 
+						// echo $this->Html->link(
+						// 	$this->Html->image('cake.power.gif', array('border' => '0')),
+						// 	'http://www.cakephp.org/',
+						// 	array('target' => '_blank', 'escape' => false)
+						// );
+					?>
+				</div>
+
+				<div class="span3">
+					<a href="http://www.w3.org/html/logo/"><img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-performance.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Performance &amp; Integration" title="HTML5 Powered with CSS3 / Styling, and Performance &amp; Integration">
+				</div>
+			</div>
         </footer>
       </div>
     </div>

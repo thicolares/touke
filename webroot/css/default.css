@@ -1,1 +1,20 @@
-body{padding:0px 20px}
+/*body{padding:0px 20px}*/
+.front-banner{
+    background: url('/img/bg-uke-02.jpg') no-repeat #eee;
+}
+.front-banner span.legend{
+    position:relative;
+    display:block;
+    top:440px;
+}
+.topbar-inner .fb-like{
+    margin-top:9px;
+    margin-left:10px;
+}
+/*.font-welcome-box{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background-color:#fff;
+    opacity:0.5;
+}*/

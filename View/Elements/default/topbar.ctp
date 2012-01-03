@@ -1,8 +1,9 @@
-<div class="topbar" data-dropdown="dropdown">
+<!-- <div class="topbar" data-dropdown="dropdown"> -->
+<div class="topbar" >
 	<div class="topbar-inner">
 		<div class="container-fluid">
-			<a class="brand" href="#"><?php print Configure::read('ProjectName'); ?></a>
-			<ul class="nav">
+			<a class="brand" href="/"><?php print Configure::read('ProjectName'); ?></a>
+			<!-- <ul class="nav">
 				<li class="active"><a href="#">Home</a></li>
 
 				<li class="dropdown">
@@ -13,12 +14,15 @@
 						<li class="divider"></li>
 						<li><a href="#">Another link</a></li>
 					</ul>
-				</li>
-			</ul>
+				</li> -->
+			<!-- </ul> -->
 			<?php
 			    echo $this->Form->create('Translator', array(
+				    'inputDefaults' => array(
+				        'label' => false,
+				        'div' => false
+				    ),
 					'type' => 'post',
-					'inputDefaults' => array('label' => false, 'div' => false),
 					'class' => 'pull-left',
 					'url' => '/t'
 					// 'url' => array(
@@ -28,18 +32,25 @@
 					// 	'plugin' => 'translation'
 					// 	                )
 				));
-
+ 				// debug($vars[songURL]);
 		    	echo $this->Form->input('Translator.song_url', array(
-		        	'class' => "large",
+		        	'class' => "span10",
 		        	'type' => 'text',
 					'error' => false,
-					 'div' => null
+					'value' => (isset($vars['songURL']) ? $vars['songURL'] : null),
+					'placeholder' => __('Paste some song URL from CifraClub')
 		    	));
-				echo $this->Form->submit('to uke');
+				//echo $this->Form->submit('to uke');
+				
+				echo ' ' . $this->Form->button(__('translate to uke'), array(
+					'type' => 'submit',
+					'class' => 'btn success small'
+				));
 				echo $this->Form->end();
 			?>
-
       <!-- <p class="pull-right">Logged in as <a href="#">username</a></p> -->
+ <div class="fb-like" data-href="http://touke.apimenti.com.br" data-send="true" data-layout="button_count" data-width="50" data-show-faces="false" data-colorscheme="dark"></div>
 		</div>
+		
 	</div>
 </div>

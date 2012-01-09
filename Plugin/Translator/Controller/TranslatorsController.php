@@ -93,7 +93,7 @@ class TranslatorsController extends TranslatorAppController {
 			else
 	  	        return array('success' => true);
 	  	} else {
-  	        return array('success' => false, 'message' => 'erro');
+  	        return array('success' => false, 'message' => '<strong>ÊTA!</strong> Tem certeza de que <em>\'' . $this->songURL . '\'</em> é o endereço completo de uma <strong>música cifrada</strong> do site <strong>www.cifraclub.com.br</strong>?');
 	  	}
 	}
 
@@ -215,6 +215,7 @@ class TranslatorsController extends TranslatorAppController {
 			$res = $this->{$graber}();
 			if($res['success'] == false){
 				$this->Session->setFlash($res['message'], 'default', array('class' => 'alert-message warning'));
+				$this->view = 'error';
 				break;
 			}
 		}

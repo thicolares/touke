@@ -67,3 +67,7 @@ CakePlugin::load('Translator', array('routes' => true));
 CakePlugin::load('Chord', array('routes' => true));
 
 Configure::write('Config.language', 'por');
+
+Configure::write('Version', '0.1.0');
+Configure::write('LastUpdate', '08/01/2012 20:55');
+

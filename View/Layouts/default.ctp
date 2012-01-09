@@ -13,7 +13,6 @@
 	    <![endif]-->
 
 	    <!-- Le styles -->
-		
 		<title>
 			<?php echo $title_for_layout; ?>
 		</title>
@@ -70,6 +69,7 @@
 				</div>
 
 				<div class="span12">
+					<p>
 					Mantido por Thiago Colares, em 
 					<?php 
 						echo $this->Html->link(
@@ -84,7 +84,8 @@
 								array('target' => '_blank', 'escape' => false, 'title' => 'To Uke no Facebook')
 							);
 					?>.
-					
+					</p>
+					<p><small>Versão <?php print Configure::read('Version'); ?>, de <?php print Configure::read('LastUpdate'); ?>.</small></p>
 				</div>
 			</div>
         </footer>

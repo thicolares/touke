@@ -33,6 +33,11 @@
 	        padding-top: 60px;
 	      }
 	    </style>
+	
+		<!-- Facebook -->
+		<link rel="image_src" href="<?php print FULL_BASE_URL; ?>/img/logo-touke.jpg" / >
+		<meta name="description" content="TRADUZA músicas cifradas de qualquer instrumento para UKULELE!" />
+	
 		<!-- Le fav and touch icons -->
 	    <link rel="shortcut icon" href="images/favicon.ico">
 	    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
@@ -64,26 +69,22 @@
 					&nbsp;
 				</div>
 
-				<div class="span3">
-					
+				<div class="span12">
+					Mantido por Thiago Colares, em 
 					<?php 
 						echo $this->Html->link(
-							$this->Html->image('http://cloud.ohloh.net/attachments/3178/cake2000_med.png', array('border' => '0')),
+							'Apimenti – coisas para internet',
 							'http://www.ohloh.net/p/cakephp',
 							array('target' => '_blank', 'escape' => false)
 						);
-					?>
-					<?php 
-						// echo $this->Html->link(
-						// 	$this->Html->image('cake.power.gif', array('border' => '0')),
-						// 	'http://www.cakephp.org/',
-						// 	array('target' => '_blank', 'escape' => false)
-						// );
-					?>
-				</div>
-
-				<div class="span3">
-					<a href="http://www.w3.org/html/logo/"><img src="http://www.w3.org/html/logo/badge/html5-badge-h-css3-performance.png" width="165" height="64" alt="HTML5 Powered with CSS3 / Styling, and Performance &amp; Integration" title="HTML5 Powered with CSS3 / Styling, and Performance &amp; Integration">
+					?>. Veja novidades na nossa	<?php 
+							echo $this->Html->link(
+								'página no Facebook',
+								'http://www.facebook.com/pages/ToUke/242518995758195',
+								array('target' => '_blank', 'escape' => false, 'title' => 'To Uke no Facebook')
+							);
+					?>.
+					
 				</div>
 			</div>
         </footer>

@@ -235,7 +235,7 @@ class Chord extends ChordAppModel{
 	    "7(b5b9)" "dominant 7 b5 b9, 7(b5b9), 7(-5-9)" [1 3 b5 b7 b9]
 	    "7(b5+9)" "dominant 7 b5 #9, 7(b5#9), 7(-5+9)" [1 3 b5 b7 b33]
 	    "7(+5b9)" "augmented 7 flat 9, aug7(b9), 7(#5b9)" [1 3 b6 b7 b9]
-	    "7(+5+9)" "augmented 7 sharp 9, aug7(#9), 7(#5#9)" [1 3 b6 b7 b33]
+	    "7(+5+9)" "augmented 7 sharp 9, aug7(#9), 7(#5#9)" [1 3 b6 b7 b11]
 	    "add9" "add9, add2" [1 3 5 999 55 11]
 	    "madd9" "minor add9, min add9, m add9, m add2" [1 b3 5 999 55 11]
 	    "maj9" "major 9, maj9, ma9, M9, (triangle) 9" [1 3 5 7 9]

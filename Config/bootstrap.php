@@ -65,3 +65,5 @@ Cache::config('default', array('engine' => 'File'));
  */
 CakePlugin::load('Translator', array('routes' => true));
 CakePlugin::load('Chord', array('routes' => true));
+
+Configure::write('Config.language', 'por');

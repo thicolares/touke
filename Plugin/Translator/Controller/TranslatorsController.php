@@ -217,9 +217,10 @@ class TranslatorsController extends TranslatorAppController {
 				$this->Session->setFlash($res['message'], 'default', array('class' => 'alert-message warning'));
 				break;
 			}
-				
 		}
 
+		$this->set("title_for_layout", Configure::read('ProjectName') . ' | ' . $this->songTitle . ', ' . $this->artistName[1]);
+		
 		$vars = array(
 			'songURL' => $this->songURL,
 			'songTitle' => $this->songTitle,

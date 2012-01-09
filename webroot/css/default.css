@@ -1,15 +1,19 @@
 /*body{padding:0px 20px}*/
 .front-banner{
-    background: url('/img/bg-uke-02.jpg') no-repeat #eee;
+    background: url('/img/bg-uke-02.jpg') no-repeat 0px -90px #eee;
 }
 .front-banner span.legend{
     position:relative;
     display:block;
-    top:440px;
+    top:400px;
 }
 .topbar-inner .fb-like{
     margin-top:9px;
     margin-left:10px;
+}
+.hero-unit{
+    padding-top:40px;
+    padding-bottom:20px;
 }
 /*.font-welcome-box{
     -webkit-border-radius: 5px;

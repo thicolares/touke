@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: TOUKE\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-01-08 20:12-0800\n"
+"PO-Revision-Date: 2012-01-08 20:17-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: /Applications/XAMPP/htdocs/touke/app/\n"
+"X-Poedit-SearchPath-0: /Applications/XAMPP/htdocs/touke/app\n"
+
+#: Plugin/Chord/View/Helper/ChordHelper.php:281
+msgid "I don't know the %s chord or its notation. I wrote it down in my notes to study later."
+msgstr "Eu não conheço a notação ou o acorde %s, mas escrevi no meu caderninho para estuda-lo depois."
+
+#: Plugin/Chord/View/Helper/ChordHelper.php:282
+msgid "Wow! What chord is this?"
+msgstr "Êta! Que acorde é esse?"
+
+#: View/Elements/default/topbar.ctp:41
+#: View/Pages/home.ctp:52
+msgid "Paste some song URL from CifraClub"
+msgstr "Cole alguma URL de música cifrada do CifraClub"
+
+#: View/Elements/default/topbar.ctp:45
+#: View/Pages/home.ctp:22;56
+msgid "translate to uke"
+msgstr "traduzir para uke"
+
+#: View/Pages/home.ctp:93
+msgid "Song"
+msgstr "Música"
+
+#: View/Pages/home.ctp:94
+msgid "Artist"
+msgstr "Artista"
+

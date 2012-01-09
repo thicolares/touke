@@ -87,8 +87,8 @@
 					<?php 
 						echo $this->Html->link(
 							'Apimenti – coisas para internet',
-							'http://www.ohloh.net/p/cakephp',
-							array('target' => '_blank', 'escape' => false)
+							'http://www.apimenti.com.br',
+							array('target' => '_blank', 'escape' => false, 'title' => 'Apimenti – coisas para internet')
 						);
 					?>. Veja novidades na nossa	<?php 
 							echo $this->Html->link(

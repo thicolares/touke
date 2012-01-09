@@ -228,9 +228,21 @@ class TranslatorsController extends TranslatorAppController {
 			'songTitle' => $this->songTitle,
 			'artistName' => $this->artistName,
 			'songLyric' => $this->songLyric,
-			'songChords' => $this->songChords
+			'songChords' => $this->songChords,
+			'amazonURL' => $this->_buildAmazonLink()
 		);
         $this->set(compact('vars'));
+	}
+	
+	/**
+	 * Provides an "Amazon Buy It" link
+	 *
+	 * @return void
+	 * @author Thiago Colares
+	 */
+	public function _buildAmazonLink(){
+		$keyWords = str_replace(' ', '+', $this->artistName[1]) . '+' . str_replace(' ', '+', $this->songTitle);
+		return "http://www.amazon.com/gp/search?ie=UTF8&keywords=$keyWords&tag=" . Configure::read('AmazonID') . "&index=digital-music&linkCode=ur2&camp=1789&creative=9325";
 	}
 	
 }

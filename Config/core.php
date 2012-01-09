@@ -339,3 +339,4 @@ Cache::config('_cake_model_', array(
 Configure::write('ProjectName', 'To Uke');
 Configure::write('Version', '0.1.1');
 Configure::write('LastUpdate', '08/01/2012 23:26');
+Configure::write('AmazonID', 'touke-20');

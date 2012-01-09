@@ -47,7 +47,7 @@
 			));
 			// debug($vars[songURL]);
 	    	echo $this->Form->input('Translator.song_url', array(
-	        	'class' => "xlarge span10",
+	        	'class' => "xlarge span7",
 	        	'type' => 'text',
 				'error' => false,
 				'value' => (isset($vars['songURL']) ? $vars['songURL'] : null),

@@ -337,3 +337,5 @@ Cache::config('_cake_model_', array(
  * @author Thiago Colares
  */
 Configure::write('ProjectName', 'To Uke');
+Configure::write('Version', '0.1.1');
+Configure::write('LastUpdate', '08/01/2012 23:26');

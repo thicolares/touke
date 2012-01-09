@@ -215,6 +215,7 @@ class TranslatorsController extends TranslatorAppController {
 			$res = $this->{$graber}();
 			if($res['success'] == false){
 				$this->Session->setFlash($res['message'], 'default', array('class' => 'alert-message warning'));
+				$this->set("title_for_layout", 'Erro');
 				$this->view = 'error';
 				break;
 			}

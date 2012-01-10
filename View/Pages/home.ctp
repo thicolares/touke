@@ -1,84 +1,79 @@
-<?php $title_for_layout = "Temp"; ?>
-
 <!-- Main hero unit for a primary marketing message or call to action -->
 <div class="hero-unit front-banner">
 	<div class="row">
-		<div class="span4">
-			&nbsp;
+		<div class='span4'>
 			<span class="legend">Ilustração de Sharon Salisbury
 				<?php //echo $this->Html->link('Sharon Salisbury', 'http://sharonsalisbury.blogspot.com/2010_06_01_archive.html', array('target' => '_blank')); ?>
 			</span>
-				
 		</div>
-		<div class="span14 font-welcome-box">
-			
-	<h1>Músicas para ukulele</h1>
-	<p>
-		<strong>TRADUZA músicas de qualquer instrumento PARA UKULELE</strong>. <br>A motivação é criar o maior acervo de música brasileira cifrado para ukulele.
-		<Br>
-	</p>
-	<h2>Como Funciona <small>Por enquanto!</small></h2>
-	<p>
-		<ol>
-			<li>Copie o endereço de uma música do CifraClub (por enquanto, só funciona no CifraClub)</li>
-			<li>Cole na caixa de texto a seguir, clique em <strong>"<?php print __('translate to uke'); ?>"</strong> para traduzir e pronto! TADAA! :)</li>
-			
-			
-			</ol>
-	</p>
-	<h2>Experimente <small>Escolha uma música no site do CifraClub</small></h2>
-	<p>
-
-  		<?php
-		    echo $this->Form->create('Translator', array(
-			    'inputDefaults' => array(
-			        'label' => false,
-			        'div' => false
-			    ),
-				'type' => 'post',
-				'class' => 'pull-left',
-				'url' => '/t'
-				// 'url' => array(
-				// 	                	'controller' => 'translations',
-				// 	'prefix' => null,
-				// 	'action' => 'parser',
-				// 	'plugin' => 'translation'
-				// 	                )
-			));
-			// debug($vars[songURL]);
-	    	echo $this->Form->input('Translator.song_url', array(
-	        	'class' => "xlarge span7",
-	        	'type' => 'text',
-				'error' => false,
-				'value' => (isset($vars['songURL']) ? $vars['songURL'] : null),
-				'placeholder' => __('Paste some song URL from CifraClub')
-	    	));
-			//echo $this->Form->submit('to uke');
-			
-			echo ' ' . $this->Form->button(__('translate to uke'), array(
-				'type' => 'submit',
-				'class' => 'btn success large'
-			));
-			echo $this->Form->end();
-		?>
-  	</p>
-	<h2>Exemplos <small>Tem algum imbatível? Sugira!</small></h2>
-	<p>
-		<?php
-		echo $this->Html->link('<strong>Vamos Fugir</strong> <small>(Gilberto Gil)</small>', '/t/http://www.cifraclub.com.br/gilberto-gil/vamos-fugir/', array('escape' => false)) . ', ';
-		echo $this->Html->link('<strong>Pescador de Ilusões</strong> <small>(O Rappa)</small>', '/t/http://www.cifraclub.com.br/o-rappa/pescador-de-ilusoes/', array('escape' => false)) . ', ';
-		echo $this->Html->link('<strong>Lambada de Serpente</strong> <small>(Djavan)</small>', '/t/http://www.cifraclub.com.br/djavan/lambada-de-serpente/', array('escape' => false)) . ', ';		
-		echo '<br>';
-		echo $this->Html->link('<strong>Hoje Eu Quero Sair Só</strong> <small>(Lenine)</small>','/t/http://www.cifraclub.com.br/lenine/hoje-eu-quero-sair-so/sktzg.html', array('escape' => false)) . ', ';
-		echo $this->Html->link('<strong>Magamalabares</strong> <small>(Marisa Monte e Carlinhos Brown)</small>','/t/http://www.cifraclub.com.br/marisa-monte/magamalabares/', array('escape' => false)) . '.';
-		?>
-	</p>
-		
-
-	</div>
-	</div>
+		<div class='span10'>
+			<h1>Músicas para </h1>
+			<p>
+				<strong>TRADUZA músicas de qualquer instrumento PARA UKULELE</strong>. <br>A motivação é criar o maior acervo de música brasileira cifrado para ukulele.
+				<Br>
+			</p>
+			<h2>Experimente <small>Escolha uma música no site do CifraClub</small></h2>
+			<p>
+		  		<?php
+				    echo $this->Form->create('Translator', array(
+					    'inputDefaults' => array(
+					        'label' => false,
+					        'div' => false
+					    ),
+						'type' => 'post',
+						'class' => 'pull-left',
+						'url' => '/t'
+						// 'url' => array(
+						// 	                	'controller' => 'translations',
+						// 	'prefix' => null,
+						// 	'action' => 'parser',
+						// 	'plugin' => 'translation'
+						// 	                )
+					));
+					// debug($vars[songURL]);
+			    	echo $this->Form->input('Translator.song_url', array(
+			        	'class' => "xlarge span7",
+			        	'type' => 'text',
+						'error' => false,
+						'value' => (isset($vars['songURL']) ? $vars['songURL'] : null),
+						'placeholder' => __('Paste some song URL from CifraClub')
+			    	));
+					//echo $this->Form->submit('to uke');
 	
-</div>
+					echo ' ' . $this->Form->button(__('translate to uke'), array(
+						'type' => 'submit',
+						'class' => 'btn success large'
+					));
+					echo $this->Form->end();
+				?>
+		  	</p>
+		</div>
+	</div><!-- row -->
+</div><!-- hero-unit -->
+
+<div class="row">
+	<div class='span8'>
+		<h2>Como Funciona <small>Por enquanto!</small></h2>
+		<p>
+			<ol>
+				<li>Copie o endereço de uma música do CifraClub (por enquanto, só funciona no CifraClub)</li>
+				<li>Cole na caixa de texto a seguir, clique em <strong>"<?php print __('translate to uke'); ?>"</strong> para traduzir e pronto! TADAA! :)</li>
+			</ol>
+		</p>
+	</div>
+	<div class='span8'>
+		<h2>Exemplos <small>Tem algum imbatível? Sugira!</small></h2>
+		<p>
+			<?php
+			echo $this->Html->link('<strong>Vamos Fugir</strong> <small>(Gilberto Gil)</small>', '/t/http://www.cifraclub.com.br/gilberto-gil/vamos-fugir/', array('escape' => false)) . ', ';
+			echo $this->Html->link('<strong>Pescador de Ilusões</strong> <small>(O Rappa)</small>', '/t/http://www.cifraclub.com.br/o-rappa/pescador-de-ilusoes/', array('escape' => false)) . ', ';
+			echo $this->Html->link('<strong>Lambada de Serpente</strong> <small>(Djavan)</small>', '/t/http://www.cifraclub.com.br/djavan/lambada-de-serpente/', array('escape' => false)) . ', ';		
+			echo $this->Html->link('<strong>Hoje Eu Quero Sair Só</strong> <small>(Lenine)</small>','/t/http://www.cifraclub.com.br/lenine/hoje-eu-quero-sair-so/sktzg.html', array('escape' => false)) . ', ';
+			echo $this->Html->link('<strong>Magamalabares</strong> <small>(Marisa Monte e Carlinhos Brown)</small>','/t/http://www.cifraclub.com.br/marisa-monte/magamalabares/', array('escape' => false)) . '.';
+			?>
+		</p>		
+	</div><!-- span16 -->
+</div><!-- row -->
 
 
 

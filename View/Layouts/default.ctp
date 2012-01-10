@@ -69,7 +69,9 @@
 		
 		<?php echo $this->element("default/topbar"); ?>
 	
-		<div class="container-fluid">
+		<?php $fluid = ($this->params['action'] == 'parser') ? '-fluid' : ''; ?>
+	
+		<div class="container<?php print $fluid; ?>">
 			<?php echo $this->Session->flash(); ?>
 
 			<?php echo $content_for_layout; ?>
@@ -77,7 +79,7 @@
 
         <footer>
 			<div class="row clearfix">
-				<div class="span5">
+				<div class="span4">
 					&nbsp;
 				</div>
 

@@ -1,7 +1,7 @@
 <!-- <div class="topbar" data-dropdown="dropdown"> -->
 <div class="topbar" >
 	<div class="topbar-inner">
-		<div class="container-fluid">
+		<div class="container-fluid span16">
 			<a class="brand" href="/"><?php print Configure::read('ProjectName'); ?></a>
 			<!-- <ul class="nav">
 				<li class="active"><a href="#">Home</a></li>
@@ -34,7 +34,7 @@
 				));
  				// debug($vars[songURL]);
 		    	echo $this->Form->input('Translator.song_url', array(
-		        	'class' => "span10",
+		        	'class' => "span9",
 		        	'type' => 'text',
 					'error' => false,
 					'value' => (isset($vars['songURL']) ? $vars['songURL'] : null),

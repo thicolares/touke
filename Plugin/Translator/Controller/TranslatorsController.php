@@ -229,10 +229,12 @@ class TranslatorsController extends TranslatorAppController {
 			'artistName' => $this->artistName,
 			'songLyric' => $this->songLyric,
 			'songChords' => $this->songChords,
-			'amazonURL' => $this->_buildAmazonLink()
+			'amazonURL' => $this->_buildAmazonLink(),
+			'bitlyURL' => $this->_bitlyURL()
 		);
         $this->set(compact('vars'));
 	}
+	
 	
 	/**
 	 * Provides an "Amazon Buy It" link
@@ -243,6 +245,35 @@ class TranslatorsController extends TranslatorAppController {
 	public function _buildAmazonLink(){
 		$keyWords = str_replace(' ', '+', $this->artistName[1]) . '+' . str_replace(' ', '+', $this->songTitle);
 		return "http://www.amazon.com/gp/search?ie=UTF8&keywords=$keyWords&tag=" . Configure::read('AmazonID') . "&index=digital-music&linkCode=ur2&camp=1789&creative=9325";
+	}
+	
+	
+	/**
+	 * Build bitly URL
+	 *
+	 * @return void
+	 * @author Thiago Colares
+	 */
+	public function _bitlyURL(){
+		$bitlyURL = 'https://api-ssl.bitly.com/v3/shorten?access_token=R_9fe25d61a523cb4d2e44d7e433a2fb55&longUrl=' . urlencode('http://touke.apimenti.com.br/t/' . $this->songURL) . '&format=txt';
+		
+		// create a new cURL resource
+		$ch = curl_init();
+
+		// set URL and other appropriate options
+		curl_setopt($ch, CURLOPT_URL, $bitlyURL);
+		curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 2);
+		curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
+		curl_setopt($ch, CURLOPT_HEADER, 0);
+		curl_setopt($ch, CURLOPT_ENCODING, 'UTF-8');
+		
+		// grab URL and pass it to the browser
+		$bitlyURL = utf8_encode(curl_exec($ch));
+
+		// close cURL resource, and free up system resources
+		curl_close($ch);
+
+		return $bitlyURL;
 	}
 	
 }

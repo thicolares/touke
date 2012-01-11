@@ -2,9 +2,10 @@
 <html lang="pt-br">
 	<head>
 	    <meta charset="utf-8">
+		<meta name="description" content="Traduza músicas de qualquer instrumento para ukulele. ">
+		<meta name="keywords" content="ukulele, guitar, banjo, comprar, ukelele, brasil, acordes ukulele, ukulele acordes, acordes para ukulele, ukulele onde comprar, comprar ukulele, cifras ukulele, ukulele afinação, kala, acordes, onde, cifras, Cifraclub, música, afinação, cavaquinho, preços, violão" />
+		<meta name="author" content="Thiago Colares – Apimenti">
 
-	    <meta name="description" content="">
-	    <meta name="author" content="">
 		<?php //echo $this->Html->charset(); ?>
 		
 		<!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
@@ -85,14 +86,14 @@
 
 				<div class="span12">
 					<p>
-					Mantido por Thiago Colares, em 
+					2009 - <?php print date('Y'); ?>. Mantido por Thiago Colares, em 
 					<?php 
 						echo $this->Html->link(
 							'Apimenti – coisas para internet',
 							'http://www.apimenti.com.br',
 							array('target' => '_blank', 'escape' => false, 'title' => 'Apimenti – coisas para internet')
 						);
-					?>. Veja novidades na nossa	<?php 
+					?>.<Br>Veja novidades na nossa	<?php 
 							echo $this->Html->link(
 								'página no Facebook',
 								'http://www.facebook.com/pages/ToUke/242518995758195',

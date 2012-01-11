@@ -23,3 +23,23 @@
     background-color:#fff;
     opacity:0.5;
 }*/
+
+input.donation{
+    display: inline-block;
+    width: inherit;
+    height: inherit;
+    padding: 4px;
+    font-size: 13px;
+    line-height: 18px;
+    color: gray;
+    border: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+    border-image: none;
+    margin:0px auto;
+}
+
+div.top-twitter{
+    padding-top:9px;
+}

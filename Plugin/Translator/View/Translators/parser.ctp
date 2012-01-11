@@ -36,7 +36,7 @@
 	
 
 	<h1><?php print $vars['songTitle']; ?> <small><?php print $vars['artistName'][1]; ?></small></h1>
-	<a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php print $vars['bitlyURL']; ?>" data-text="Tocando <?php print $vars['songTitle'];  ?> no ukulele!" data-via="apimenti" data-lang="pt" data-hashtags="touke">Tweetar</a><div class="fb-like" data-href="<?php print FULL_BASE_URL; ?>/t/<?php print $vars['songURL']; ?>" data-send="true" data-width="450" data-show-faces="false"></div>
+	<!-- <a href="https://twitter.com/share" class="twitter-share-button" data-url="<?php print $vars['bitlyURL']; ?>" data-text="Tocando <?php print $vars['songTitle'];  ?> no ukulele!" data-via="apimenti" data-lang="pt" data-hashtags="touke">Tweetar</a> --><div class="fb-like" data-href="<?php print FULL_BASE_URL; ?>/t/<?php print $vars['songURL']; ?>" data-send="true" data-width="450" data-show-faces="false"></div>
 		
 		
 		

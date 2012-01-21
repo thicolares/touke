@@ -1,6 +1,7 @@
 ## What is it?
 
-Given a song URL from (http://www.cifraclub.com.br), To Uke replaces all chords from any instrument by ukulele chords.
+See in action: http://touke.apimenti.com.br
+Given a song URL from CifraClub, To Uke replaces all chords from any instrument by ukulele chords.
 
 ## Last Version
 

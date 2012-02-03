@@ -337,6 +337,7 @@ Cache::config('_cake_model_', array(
  * @author Thiago Colares
  */
 Configure::write('ProjectName', 'To Uke');
+Configure::write('ProjectTitle', 'To Uke, cifras para ukulele');
 Configure::write('Version', '0.1.2');
 Configure::write('LastUpdate', '10/01/2012 23:36');
 Configure::write('AmazonID', 'touke-20');

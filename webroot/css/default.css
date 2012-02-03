@@ -1,12 +1,13 @@
 /*body{padding:0px 20px}*/
 .front-banner{
-    background: url('/img/bg-uke-02.jpg') no-repeat 0px -90px #eee;
+    background: url('/img/bg-uke-04.png') no-repeat -110px -120px #eee;
 }
 .front-banner span.legend{
     position:relative;
     display:block;
     top:260px;
     left: 15px;
+    color: #b9732d;
 }
 .topbar-inner .fb-like{
     margin-top:9px;

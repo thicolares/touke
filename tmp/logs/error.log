@@ -6673,3 +6673,12 @@
 #1 /applications/xampp/xamppfiles/htdocs/touke/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
 #2 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-02-03 05:19:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-03 05:19:50 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-02-03 05:19:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /applications/xampp/xamppfiles/htdocs/touke/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

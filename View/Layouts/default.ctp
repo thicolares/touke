@@ -15,7 +15,7 @@
 
 	    <!-- Le styles -->
 		<title>
-			<?php echo $title_for_layout; ?>
+			<?php echo $title_for_layout . ' | ' . Configure::read('ProjectTitle'); ?> 
 		</title>
 		<?php
 			echo $this->Html->meta('icon');

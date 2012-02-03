@@ -55,7 +55,7 @@
 
 <div class="row">
 	<div class='span5'>
-		<h2>Como Funciona <small>Por enquanto!</small></h2>
+		<h2>Como Funciona <small>beta</small></h2>
 		<p>
 			<ol>
 				<li>Copie o endereço de uma música;

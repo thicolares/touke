@@ -1,3 +1,5 @@
+**This project has been discontinued and deactivated.** Check the timeline / archive: https://github.com/colares/touke-flow.
+
 ## What is it?
 
 See in action: http://touke.apimenti.com.br
